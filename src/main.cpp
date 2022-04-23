@@ -110,7 +110,7 @@ MMWWWWWOooc;;cl':OOdxNWWWWWWWXd;:xXWWMWXx,.lNWWMMWMKkKNK0OOxdkKk::o:ol:dkkk0WWMW
 )";
 }
 
-void lucha(){
+void lucha_intro(){
     cout << R"(                                                                                                                                                                         
             ..   ..                                                                        .                            
        ..   ''  .;.                                                             .;c,      .co,                          
@@ -168,34 +168,34 @@ void lucha(){
 void michifinal(){
     cout << R"(                                                            
                                                            
-                                                           
-                                                           
-                         'ccc;'.                            
-                       .lXMMMWNd.                          
-                       ;XX0XMNKk'                          
-                       cNXkk0OOO;                          
-                       .dNK00Oko.                          
-                      .:0WMMMNKx,                          
-                     .oWMMMMMMMMNd.                        
-                     ;XMMMMMMMMMMX:                        
-                     :NMMMMW00NNKXd                        
-                     :NNOdol..''.:l.                        
-                     :Kl         .;.                        
-                     ,x;       ..oO;                        
-                      lKxlccoxk0XWWO.                      
-..                    .xWMMMMMMMMMMWl                      
-.......................;dddddddddddd:.......................
-                                                           
-      'cc'                ....                ..........    
-     .:;cc        ,;.    ,;..';.   .,...,.   .col'......:;.
-   .';;.,;.      'c:'    ;,  .c;. .:,.'.;;    'dl,'. ..,od'
-  .cl;,.,cdc    .;.';    ':. .c;.  .:''clo:.  .:oc;'.'',cx:
-  ,ccc'.':dk'   'c.':.    ':..c:.   ':cllxl:.  ;c'.....''cc.
-  .;,;'.';c:.    .:;;,     .;..;,   .;:;,;;c'  .:'     .';.
-    .''..'.       .;;:.    .;. ,;    .''.,:'    .,'..''''.  
-                   ..,.     ;;.::.                          
-                             ...                                                                                       
-)";
+                                                               
+                                                               
+                             'ccc;'.                            
+                           .lXMMMWNd.                          
+                           ;XX0XMNKk'                          
+                           cNXkk0OOO;                          
+                           .dNK00Oko.                          
+                          .:0WMMMNKx,                          
+                         .oWMMMMMMMMNd.                        
+                         ;XMMMMMMMMMMX:                        
+                         :NMMMMW00NNKXd                        
+                         :NNOdol..''.:l.                        
+                         :Kl         .;.                        
+                         ,x;       ..oO;                        
+                          lKxlccoxk0XWWO.                      
+    ..                    .xWMMMMMMMMMMWl                      
+    .......................;dddddddddddd:.......................
+                                                               
+          'cc'                ....                ..........    
+         .:;cc        ,;.    ,;..';.   .,...,.   .col'......:;.
+       .';;.,;.      'c:'    ;,  .c;. .:,.'.;;    'dl,'. ..,od'
+      .cl;,.,cdc    .;.';    ':. .c;.  .:''clo:.  .:oc;'.'',cx:
+      ,ccc'.':dk'   'c.':.    ':..c:.   ':cllxl:.  ;c'.....''cc.
+      .;,;'.';c:.    .:;;,     .;..;,   .;:;,;;c'  .:'     .';.
+        .''..'.       .;;:.    .;. ,;    .''.,:'    .,'..''''.  
+                       ..,.     ;;.::.                          
+                                 ...                                                                                       
+    )";
 
 }
 
@@ -227,6 +227,63 @@ void michienojado(){
 )";
 }
 
+
+
+
+
+void covid()
+{
+      cout << R"(                                                                                                                                                   
+                                                             .          ..                                                  
+                                                     .,:lc.        .cxd;                                                
+                                                     .'oo.          ;xc.                                                
+                                         ,ld;          ';.         .c:         .                                        
+                                        .:dOc    .,;.  'o'        .ld.        .ll,.                                     
+                                           ,l,   'oo.  :0k;.    .,xNk.       .;c:;.                                     
+                                            'xl.  ;o,,oKWWN0OOkOKXWWXx,.   .::'                                         
+                                 .,.         oN0dokKXNWWWWWMMWWWWWWWWWN0xdkOl. ..                                       
+                                .ok;         lNWWWWWWWWWWXNNKOkKWWWMWWWWWWWK, ,doc.     ..                              
+                                .::;,'.    .lXMWWWWWWWMMXoc;...;c:oONWWWWWWXkodlcc,   .lOx'                             
+                                    .;ooc:oONWWMWWWWNNMWx'         .lXWWWWWNXK0o:ccc:;;:cl'                             
+                                      'OWWWOod0WWWWWNXWNl          .lKWWWWWWNWWWNXk:.                                   
+                                       oKd:.  .dNXXWNKNWl      .cxxdkKNWWWWWWWWWWd.                                     
+                          .,'         :0x.     .dXKNWXNWd.    ,d0NWNOOK0XWWWWWWWWx.                                     
+                          ,OOo;,'...'lKWNd:lc.  ;KWWWWWWO'   .dolKNWNd;oXWWWWWWWWNd'.     .:,                           
+                          .;,..,;cd0XNWWWKk0d.  .OWNNWWW0'   .ko'o00l;dXWWWWWWWWWWWXkc,'.,ldo'                          
+                                  .,xNWWNkkO,.   oN0OXWNl    ,0l .;;:ONXKXNWWWWWWWNk,      .,.                          
+                                    .kWWKol:.lc..;x0kxdc.  ..:o,.'lOXNXK0NWWWWWWWWKd,,:l.                               
+                                    .dWWXko:;kK0KXNWNXK0Oxxkkxood0NWWWWXKXWWWWWWWW0;..,c.                               
+                           .       .c0WWWWNKKXWWWWMMWWMMMWWWWWWWMWWWWXOk00XWWWWWWWNd.                                   
+                           ;oc;'.,:oOXWWWWWWWWWWWWMMWWWWWWMWWWWWWWNXXKl':lOWWWWWWWNX0o:'.  ..                           
+                           .oo,.    .,kNWWWWWWXOOOolxOOOOOKKK00KKOxOXWx.cxOWWWWWWO:.'.'',;oko.                          
+                            ..        .xWWWWWXOdxd:,:kk,..dOkc,oKO;':dx,,xXWWWWWO'        ,o,                           
+                                       cXWWWWWWN0kOx,cc.,:od;;llo0c.cl:':KWWWWWWk.                                      
+                                     .:OXWWWWWWWWX0kl::cxc':lxNK:',.lOxxKWWWWWXKKx,                                     
+                                   .;looc:lkXWWWWWNNK0XNX0kO0OOOx:;cokKWWWWWKl'.';:;'....                               
+                               ,dol;'.      ,dXWWWWWXNNNNWWWWWWWWNNWWWWWWWNk,       'ldl.                               
+                               .co,          .kNNNNWWWWWWWWWWWWWNWWWWWWWWWK;         ':.                                
+                                             ,kx:,;cxKNWWWWWWWWWWNWN0kollkKo.                                           
+                                           .,:'      ,kNKdl::;;ckXXo.     ,l;.                                          
+                                        .':l;        .xO;        cx'       .::..                                        
+                                        .;od,        ,o'         .;.        .oxo'                                       
+                                           .        .c,          .:,        .,;.                                        
+                                                  .;dx;          ,ll,.                                                  
+                                                   .,;'         ....                           
+ ____  _                           _     _            
+ |  _ \(_)                         (_)   | |           
+ | |_) |_  ___ _ ____   _____ _ __  _  __| __  __      
+ |  _ <| |/ _ | '_ \ \ / / _ | '_ \| |/ _` \ \/ /      
+ | |_) | |  __| | | \ V |  __| | | | | (_| |>  < _ _ _ 
+ |____/|_|\___|_| |_|\_/ \___|_| |_|_|\__,_/_/\_(_(_(_)
+                                                                     
+  )";
+
+
+
+}
+
+
+
 void titles()
 {
   cout << R"(
@@ -249,7 +306,6 @@ void titles()
        )";
 }
 
-void juego(){}
 void creditos()
 {
     cout << "Alan Verrua > Materia IG1. Juanjo Tirigal" << endl;
@@ -267,7 +323,7 @@ enum Formas{
     indirecto
 };
 
-void optLucha()
+void lucha()
 {
   int formaPelea;
   Formas forma;
@@ -349,7 +405,7 @@ void optLucha()
   cin.ignore();
 }
 
-void optacariciar()
+void acariciar()
 {
   michisentado();
   cout << "\n\nBueno, pero que sea solo un rato eh\n";
@@ -361,7 +417,7 @@ void optacariciar()
   cin.ignore();
 }
 
-void optmirar()
+void mirar()
 {
   ppal();
   cout << "\n\nAdelante joven, pasele pasele\n\n";
@@ -369,14 +425,14 @@ void optmirar()
   cout << "\nAquí puede ver los precios: \n\n 1:Jarra="<<jarra<<"\n 2:Platano="<<platano<<"\n 3:Espatula="<<espatula<<"\n 4:Taza="<<taza<<"\n 5:Libro="<<libro<<endl<<endl;
 }
 
-void optnada()
+void nada()
 {
   michimirando();
   cout <<endl << endl<< "¡¿ENTONCES PORQUE ME HACES PERDER EL TIEMPO?! Vete de aquí."<<endl<<endl;
   cin.ignore();
 }
 
-void optaBatalla(){
+void batalla(){
   cout << "*** ¡Humanos VS Esqueletos! ***\n"
        << endl;
 
@@ -511,9 +567,83 @@ void optaBatalla(){
   
 }
 
+void intro_juego()
+{
+    int opt;
+    string nom;
+    titles ();
+    cout << endl << "¿Cómo te llamas? ";
+    cin >> nom;
+    cout << nom;
+    cin.get();
+    system ("clear");
+    covid();
+
+    cout << "..." << nom << ", dale 'ENTER' para continuar..." << endl;
+
+    cin.get();
+    system ("clear");
+
+    ppal();
+    cout << "¡Estimadx " << nom << "!...Debes ser fuerte en estos momentos tan complicados..." << endl;
+    cout << "¡COVID-SARS-19 ha mutado a COVID-SARS-22!" << endl;
+    cout << "Sus efectos son mucho más poderosos ahora..." << endl;
+    cout << nom << ", eres la única esperanza de la humanidad" << endl;
+    cout << "Pulsa 'ENTER' para continuar..." << endl;
+    cin.get();
+    system ("clear");
+}
+
+
+
+
+void juego() { 
+  int opt_juego = 1;
+  intro_juego();
+
+  while (opt_juego == 1)
+  {
+    
+    cout << "[1].Luchar contra COVID-SARS-22" << endl;//michitrato - lucha
+    cout << "[2].BATALLA COVID-SARS-23" << endl;
+    cout << "[3].Luchar contra COVID-SARS-24" << endl;
+    cout << "[4].Luchar contra COVID-SARS-25" << endl;//¿Puedo acariciarle un poco?\n\n 3:Solo pasaba para mirar\n\n 4:Nada\n\n";
+    
+    cout << endl << "Ingresa tu preferencia: ";  
+    cin >> opt_juego;
+    system("clear");
+
+    switch (opt_juego){
+            case 1:
+            lucha();
+            break;
+
+            case 2:
+            batalla();
+            break;
+
+            case 3:
+            mirar();
+            break;
+
+            case 4:
+            nada();
+            break;
+            default:
+            cout << "\n ¡No entiendo que me estás diciendo!"<<endl<<endl;
+            break;
+            }
+
+  cout << "\n ¿Repetir?  1:Si      2:No :  ";
+  cin >> opt_juego;
+
+ }
+}
+
 int main()
 {
-  int menu;
+    int menu;
+
     cout << "Opciones" << endl;
     cout << "[1].Juego" << endl;
     cout << "[2].Creditos" << endl; 
@@ -536,114 +666,5 @@ int main()
              cout << "Debes ingresar las opciones 1, 2 o 3" <<endl; 
              exit(1);
       }
-  
-  int opt;
-  bool repeat = true;
-
-  while (repeat==true)
-  {
-  string nom;
-  titles ();
-  cout << endl << "¿Cómo te llamas? ";
-  cin >> nom;
-  cout << nom;
-  cin.get();
-  system ("clear");
-  cout << R"(                                                                                                                                                   
-                                                         .          ..                                                  
-                                                     .,:lc.        .cxd;                                                
-                                                     .'oo.          ;xc.                                                
-                                         ,ld;          ';.         .c:         .                                        
-                                        .:dOc    .,;.  'o'        .ld.        .ll,.                                     
-                                           ,l,   'oo.  :0k;.    .,xNk.       .;c:;.                                     
-                                            'xl.  ;o,,oKWWN0OOkOKXWWXx,.   .::'                                         
-                                 .,.         oN0dokKXNWWWWWMMWWWWWWWWWN0xdkOl. ..                                       
-                                .ok;         lNWWWWWWWWWWXNNKOkKWWWMWWWWWWWK, ,doc.     ..                              
-                                .::;,'.    .lXMWWWWWWWMMXoc;...;c:oONWWWWWWXkodlcc,   .lOx'                             
-                                    .;ooc:oONWWMWWWWNNMWx'         .lXWWWWWNXK0o:ccc:;;:cl'                             
-                                      'OWWWOod0WWWWWNXWNl          .lKWWWWWWNWWWNXk:.                                   
-                                       oKd:.  .dNXXWNKNWl      .cxxdkKNWWWWWWWWWWd.                                     
-                          .,'         :0x.     .dXKNWXNWd.    ,d0NWNOOK0XWWWWWWWWx.                                     
-                          ,OOo;,'...'lKWNd:lc.  ;KWWWWWWO'   .dolKNWNd;oXWWWWWWWWNd'.     .:,                           
-                          .;,..,;cd0XNWWWKk0d.  .OWNNWWW0'   .ko'o00l;dXWWWWWWWWWWWXkc,'.,ldo'                          
-                                  .,xNWWNkkO,.   oN0OXWNl    ,0l .;;:ONXKXNWWWWWWWNk,      .,.                          
-                                    .kWWKol:.lc..;x0kxdc.  ..:o,.'lOXNXK0NWWWWWWWWKd,,:l.                               
-                                    .dWWXko:;kK0KXNWNXK0Oxxkkxood0NWWWWXKXWWWWWWWW0;..,c.                               
-                           .       .c0WWWWNKKXWWWWMMWWMMMWWWWWWWMWWWWXOk00XWWWWWWWNd.                                   
-                           ;oc;'.,:oOXWWWWWWWWWWWWMMWWWWWWMWWWWWWWNXXKl':lOWWWWWWWNX0o:'.  ..                           
-                           .oo,.    .,kNWWWWWWXOOOolxOOOOOKKK00KKOxOXWx.cxOWWWWWWO:.'.'',;oko.                          
-                            ..        .xWWWWWXOdxd:,:kk,..dOkc,oKO;':dx,,xXWWWWWO'        ,o,                           
-                                       cXWWWWWWN0kOx,cc.,:od;;llo0c.cl:':KWWWWWWk.                                      
-                                     .:OXWWWWWWWWX0kl::cxc':lxNK:',.lOxxKWWWWWXKKx,                                     
-                                   .;looc:lkXWWWWWNNK0XNX0kO0OOOx:;cokKWWWWWKl'.';:;'....                               
-                               ,dol;'.      ,dXWWWWWXNNNNWWWWWWWWNNWWWWWWWNk,       'ldl.                               
-                               .co,          .kNNNNWWWWWWWWWWWWWNWWWWWWWWWK;         ':.                                
-                                             ,kx:,;cxKNWWWWWWWWWWNWN0kollkKo.                                           
-                                           .,:'      ,kNKdl::;;ckXXo.     ,l;.                                          
-                                        .':l;        .xO;        cx'       .::..                                        
-                                        .;od,        ,o'         .;.        .oxo'                                       
-                                           .        .c,          .:,        .,;.                                        
-                                                  .;dx;          ,ll,.                                                  
-                                                   .,;'         ....                           
- ____  _                           _     _            
- |  _ \(_)                         (_)   | |           
- | |_) |_  ___ _ ____   _____ _ __  _  __| __  __      
- |  _ <| |/ _ | '_ \ \ / / _ | '_ \| |/ _` \ \/ /      
- | |_) | |  __| | | \ V |  __| | | | | (_| |>  < _ _ _ 
- |____/|_|\___|_| |_|\_/ \___|_| |_|_|\__,_/_/\_(_(_(_)
-                                                                     
-  )";
-  cout << "..." << nom << ", dale 'ENTER' para continuar..." << endl;
-  
-  cin.get();
-  system ("clear");
-
-    ppal();
-    cout << "¡Estimadx " << nom << "!...Debes ser fuerte en estos momentos tan complicados..." << endl;
-    cout << "¡COVID-SARS-19 ha mutado a COVID-SARS-22!" << endl;
-    cout << "Sus efectos son mucho más poderosos ahora..." << endl;
-    cout << nom << ", eres la única esperanza de la humanidad" << endl;
-    cout << "Pulsa 'ENTER' para continuar..." << endl;
-    cin.get();
-    system ("clear");
-
-    cout << "[1].Luchar contra COVID-SARS-22" << endl;//michitrato - lucha
-    cout << "[2].BATALLA COVID-SARS-23" << endl;
-    cout << "[3].Luchar contra COVID-SARS-24" << endl;
-    cout << "[4].Luchar contra COVID-SARS-25" << endl;//¿Puedo acariciarle un poco?\n\n 3:Solo pasaba para mirar\n\n 4:Nada\n\n";
-    
-    cout << endl << "Ingresa tu preferencia: ";  
-    cin >> opt;
-    system("clear");
-
-    switch (opt){
-            case 1:
-            optLucha();
-            break;
-
-            case 2:
-            optaBatalla();
-            break;
-
-            case 3:
-            optmirar();
-            break;
-
-            case 4:
-            optnada();
-            break;
-            default:
-            cout << "\n ¡No entiendo que me estás diciendo!"<<endl<<endl;
-            break;
-            }
-
-  cout << "\n ¿Repetir?  1:Si      2:No :  ";
-  cin >> opt;
-  if (opt==1)
-  {
-    repeat = true;
-  }
-  else repeat = false;
-  }
   return 0;
 }
